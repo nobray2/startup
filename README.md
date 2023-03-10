@@ -1,5 +1,3 @@
 # startup
-cs260 start up
-new line
-more text
-different wordssome more text
+
+I learned about merging different changes.

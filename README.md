@@ -7,6 +7,10 @@ Match Master is a new online memory game that allows **anyone anywhere** to test
 ## Features
   * Multiple game modes. Players will have the option between two ways to play. The first is having a time limit of 10 minutes to beat as many boards as they can. Accuracy matters and is calculated into leaderboard position, but too many errors will not end the play. The other option is infinite mode. There is no time limit, however accuracy matters and after a certain number of errors the playthrough will be ended.
   * Difficulty levels. Along with the game mode, players will be able to choose between two difficulty levels. The hard difficulty is a 10x10 board while easy is 6x6.
+  * Secure login
+  * Accurate high score tracking/display
+  * Real time updates on the scores of other players and new high scorers.
+  * Real time display of current player count
 
 ## Technology
   * Authentication

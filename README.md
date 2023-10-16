@@ -3,7 +3,7 @@ Startup repo cs260 fall 2023
 
 
 ## Pitch
-
+Match master is an online game that allows **anyone anywhere** to test their memory to its limit. It allows players to track their prpogress and compare their performance to others. 
 ## Features
   * Multiple game modes. Players will have the option between two ways to play. The first is having a time limit of 10 minutes to beat as many boards as they can. Accuracy matters and is calculated into leaderboard position, but too many errors will not end the play. The other option is infinite mode. There is no time limit, however accuracy matters and after a certain number of errors the playthrough will be ended.
   * Difficulty levels. Along with the game mode, players will be able to choose between two difficulty levels. The hard difficulty is a 10x10 board while easy is 6x6.

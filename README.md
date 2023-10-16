@@ -28,3 +28,12 @@ Match Master is a new online memory game that allows **anyone anywhere** to test
 
 
 ## Example Images
+
+# Home Page
+![home page](home.png)
+
+# Gameplay
+![game page](game.png)
+
+# Leaderboards
+![leaderboard page](leaderboard.png)

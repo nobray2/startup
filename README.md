@@ -49,3 +49,5 @@ I created the basic structure for my startup website using html
     * 10x10 play page
     * About page
     * Leaderboard page
+  * Websocket. Players can see the current number of players playing the same game mode as them in real time. The current in-game board leader will also be displayed.
+  * Database. The leaderboard pages will pull from a database to show all time high scores. The "Play history" will also pull from a database to show recent activity for logged in users.

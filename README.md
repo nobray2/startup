@@ -37,3 +37,15 @@ Match Master is a new online memory game that allows **anyone anywhere** to test
 
 ### Leaderboards
 ![leaderboard page](leaderboard.png)
+
+
+### Startup HTML
+
+I created the basic structure for my startup website using html
+
+  * Pages. Created 5 different html pages.
+    * Home page
+    * 6x6 play page
+    * 10x10 play page
+    * About page
+    * Leaderboard page

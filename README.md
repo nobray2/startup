@@ -43,14 +43,15 @@ Match Master is a new online memory game that allows **anyone anywhere** to test
 
 I created the basic structure for my startup website using html
 
-  * Pages. Created 5 different html pages.
-    * Home page
+  * Pages. Created 6 different html pages.
+    * Login page
     * 6x6 play page
     * 10x10 play page
     * About page
     * Leaderboard page
+    * Profile page
   * Websocket. Players can see the current number of players playing the same game mode as them in real time. The current in-game board leader will also be displayed.
-  * Database. The leaderboard pages will pull from a database to show all time high scores. The "Play history" will also pull from a database to show recent activity for logged in users.
+  * Database. The leaderboard pages will pull from a database to show all time high scores. The "Play history" will also pull from a database to show recent activity for logged in users on their profile page.
   * Text. Used text to describe how to play the game in the about page. Text is really used all over. 
   * Images. There's a nice sunset on the login page. Added an image by the button placeholders on the 6x6 gameplay page to show what tiles may look like. Haven't actually decided on fruits for final product.
-  * Links. The login button will link the player to their profile page. Nav links for the different pages. Link to my github at bottom of every page. The home page, index.html, does not need any links except the login button. Other pages do not need links back to the login page or their own pages.
+  * Links. The login button will link the player to their profile page. Nav links for the different pages. Link to my github at bottom of every page. Logout button at bottom of every page brings back to the login page. All pages except login page have links to each other.

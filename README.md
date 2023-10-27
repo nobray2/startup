@@ -51,3 +51,6 @@ I created the basic structure for my startup website using html
     * Leaderboard page
   * Websocket. Players can see the current number of players playing the same game mode as them in real time. The current in-game board leader will also be displayed.
   * Database. The leaderboard pages will pull from a database to show all time high scores. The "Play history" will also pull from a database to show recent activity for logged in users.
+  * Text. Used text to describe how to play the game in the about page. Text is really used all over. 
+  * Images.
+  * Links. The login button will link the player to their profile page. Nav links for the different pages. Link to my github at bottom of every page.

@@ -44,9 +44,12 @@ forward, p, ol, ul, h1 h2 h3
 div - spreads whole width, block level (new line). 
 
 block level - div, h1 2 3, p, list, li, header, footer, form, table, address, blockquote, nav, section, article, pre,
+inline - span, 
 css display can change it
 
-
+DOM-
+tree, using nodes to represent everything. can be interacted with languages like javascript.
+dynamic altering without reload. EVent handling. traverse modify delete.
 
 ### CSS
 
@@ -92,11 +95,22 @@ css flex
     flex-grow: 1;            /* Allow items to grow and take up available space */
 }
 
+change color of text
+```
+html
+<span class="green-text">troubl</span>
+css
+.green-text {
+    color: green;
+}
+```
+
 
 ```
 
-change color
+change color divs
 ```
+css
 div {
     background-color: red;
 }
@@ -140,6 +154,7 @@ var element = document.getElementById('byu');
 element.style.color = 'green'
 
 add new value to obj - obj.newName = "jj"
+cant add if .freeze(), preventextension, seal, defineproperty
 
 json - key value pairs. keys strings, values other data types
 

@@ -49,6 +49,13 @@ css display can change it
 
 
 ### CSS
+
+link css file in html header section
+```
+<link rel="stylesheet" type="text/css" href="path/to/your/styles.css">
+```
+higher speficity takes priority. later rules take priority.
+
 content- width height
 padding - between element and border. top-r-b-l
 border
@@ -88,9 +95,20 @@ css flex
 
 ```
 
+change color
+```
+div {
+    background-color: red;
+}
+
+```
 
 ### JS
+
+linked vs embed
  ```
+<script src="path/to/your/script.js"></script>
+
  <script>
  document.getElementById('content').innerText = 'crow';
  </script>

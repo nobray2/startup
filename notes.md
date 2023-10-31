@@ -57,6 +57,37 @@ margin - space outside of border. in beteween elements. transparent.
 -# is id selector. id is unique. only one object per id.
 . is class selector. class applied to many objects
 
+flexbox-
+direction default rows, change with flex-direction
+all items attempt fit one line, flex-wrap
+
+```
+html
+<div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+</div>
+
+css flex
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center;     /* Vertically center the items */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* Styling individual items */
+.item {
+    padding: 20px;           /* Add some space around each item */
+    margin: 10px;            /* Add some space between items */
+    border: 1px solid black; /* Add a border for visualization */
+    flex-grow: 1;            /* Allow items to grow and take up available space */
+}
+
+
+```
+
 
 ### JS
  ```
@@ -65,7 +96,26 @@ margin - space outside of border. in beteween elements. transparent.
  </script>
  ```
 
- event listerners - element.addEventListener(event, function, useCapture);
+ promises
+ ```
+ let myPromise = new Promise(function(resolve, reject) {
+  // Asynchronous operation
+  if (/* operation successful */) {
+    resolve(value);  // Fulfill the promise with a value
+  } else {
+    reject(error);  // Reject the promise with an error
+  }
+});
+myPromise
+    .then(result => {
+        console.log(result);  // "Success!"
+    })
+    .catch(error => {
+        console.log(error);  // "Error!"
+    });
+```
+
+ event listerners - element.addEventListener(event -click-, function, useCapture);
 
 
 var element = document.getElementById('byu');

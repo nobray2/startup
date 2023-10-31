@@ -15,7 +15,7 @@ margin - space outside of border. in beteween elements.
 
 ### JS
 
-const greet = function(name) {
+```const greet = function(name) {
     return "Hello, " + name + "!";
 };
 =
@@ -23,7 +23,7 @@ const greet = (name) => {
     return "Hello, " + name + "!";
 };
 =
-const greet = name => "Hello, " + name + "!";
+const greet = name => "Hello, " + name + "!";```
 
 
 ### HTML

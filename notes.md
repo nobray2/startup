@@ -94,6 +94,7 @@ css flex
     border: 1px solid black; /* Add a border for visualization */
     flex-grow: 1;            /* Allow items to grow and take up available space */
 }
+```
 
 change color of text
 ```
@@ -102,9 +103,6 @@ css
 .green-text {
     color: green;
 }
-```
-
-
 ```
 
 change color divs

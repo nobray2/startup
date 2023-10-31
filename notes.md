@@ -97,7 +97,6 @@ css flex
 
 change color of text
 ```
-html
 <span class="green-text">troubl</span>
 css
 .green-text {

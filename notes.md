@@ -22,6 +22,16 @@ ssh -i main.pem ubuntu@matchmaster.click
 
 ### HTML
 
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>hi</title>
+    </head>
+```
+
 
 
 ### CSS
@@ -31,11 +41,14 @@ margin - space outside of border. in beteween elements.
 
 ### JS
  ```
- <script></script>
- 
+ <script>
+ document.getElementById('content').innerText = 'crow';
+ </script>
  ```
 
-json -
+add new value to obj - obj.newName = "jj"
+
+json - key value pairs. keys strings, values other data types
 
 ```
 const greet = function(name) {
@@ -47,6 +60,55 @@ const greet = (name) => {
 };
 =
 const greet = name => "Hello, " + name + "!";
+```
+
+creating object - 
+```
+let (also use var, const) person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    isStudent: false,
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        zip: "12345"
+    },
+};
+let person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 30;
+
+----
+
+if(c){
+
+}else if (oc){
+
+}else{
+
+}
+
+for(let i = 0; i < 7; ++i){
+    console.log(i);
+}
+
+while(c){
+
+}
+ o="dog"
+switch(o){
+    case "dog":
+        console.log("bark");
+        break;
+    case "cat":
+        break;
+    default:
+        break;
+}
+
+
 ```
 
 

@@ -32,11 +32,30 @@ ssh -i main.pem ubuntu@matchmaster.click
     </head>
 ```
 
+forward, p, ol, ul, h1 h2 h3
+```
+ link
+ <a href="gg.html">link text</a>
+
+ image
+ <img src="bb.jpg" alt="" style="width:%; height:%;">
+```
+
+div - spreads whole width, block level (new line). 
+
+block level - div, h1 2 3, p, list, li, header, footer, form, table, address, blockquote, nav, section, article, pre,
+css display can change it
+
 
 
 ### CSS
+content- width height
 padding - between element and border. top-r-b-l
-margin - space outside of border. in beteween elements.
+border
+margin - space outside of border. in beteween elements. transparent.
+
+-# is id selector. id is unique. only one object per id.
+. is class selector. class applied to many objects
 
 
 ### JS
@@ -45,6 +64,12 @@ margin - space outside of border. in beteween elements.
  document.getElementById('content').innerText = 'crow';
  </script>
  ```
+
+ event listerners - element.addEventListener(event, function, useCapture);
+
+
+var element = document.getElementById('byu');
+element.style.color = 'green'
 
 add new value to obj - obj.newName = "jj"
 
@@ -61,6 +86,19 @@ const greet = (name) => {
 =
 const greet = name => "Hello, " + name + "!";
 ```
+
+
+```
+maps -- const newArray = oldArray.map(function(currentValue, index, array) {
+    // Return element for newArray
+});
+const numbers = [1, 2, 3, 4];
+const squared = numbers.map(num => num * num);
+console.log(squared);  // [1, 4, 9, 16]
+
+```
+
+
 
 creating object - 
 ```

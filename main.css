@@ -14,13 +14,16 @@ header{
     display: flex;
     flex-direction: column;
     background-color: lightslategray;
-    margin: 5px;
     padding: 5px;
     flex: 0 100px;
 }
 main{
     flex:auto;
+    display: flex;
     background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 footer{
     display: flex;
@@ -31,13 +34,6 @@ footer{
 }
 
 div{
-    margin: 15px;
-}
-.mainnav{
-    list-style-type: none;
-    display: flex;
-    width: 40%;
-
 }
 li{
     padding: 1%;
@@ -49,8 +45,20 @@ li{
     align-items: center;
 }
 h1{
-    padding-left: 15px;
+    padding-left: 1%;
 }
 a {
     color: black;
+}
+.navbar-brand {
+}
+.navbar{
+    padding: 1%;
+    border-radius: 10px;
+}
+#login-button {
+    margin: 1%;
+}
+#footlink {
+    padding: 1%;
 }

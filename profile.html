@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Matchmaster Home</title>
 
-        <!-- css sheet(s)-->
-        <link rel="stylesheet" href="main.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matchmaster Home</title>
 
-        <!-- bootstrap include-->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-        crossorigin="anonymous"
-        />
-    </head>
-    <body>
-        <header>
-            <h1>Matchmaster - Player Profile</h1>
-            <nav>
-                <ul class="mainnav">
-                    <li><a href="6x6.html">Play 6x6</a></li>
-                    <li><a href="10x10.html">Play 10x10</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="scores.html">Leaderboards</a></li>
-                    <li><a href="profile.html">My Profile</a></li>
+    <!-- bootstrap include-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- css sheet(s)-->
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Matchmaster - Profile</h1>
+
+        <nav class="navbar navbar-expand navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="6x6.html">Play<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="scores.html">Scores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Player Name: --player username here--</h1>
-    
-            <h2>Play History</h2>
-    
-            <ul>
-                <li>6x6; 23 boards; Oct 13 2023</li>
-                <li>6x6; 13 boards; Oct 10 2023</li>
-                <li>10x10; 5 boards; Oct 5 2023</li>
-                <li>10x10; 3 boards; Oct 5 2023</li>
-                <li>6x6; 10 boards; Oct 1 2023</li>
-                <li>6x6; 11 boards; Nov 27 2023</li>
-            </ul>
-    
-            <h2>Current Leaderboard standings</h2>
-            <p>6x6: none</p>
-            <p>10x10: 3rd</p>
-        </main>
-        <footer>
-            <div id="footlink"><a href="https://github.com/nobray2">Author's Github</a></div>
-            <div id="footlink"><button onclick="window.location.href='index.html'">Logout</button></div>
-        </footer>
-    </body>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Player Name: --player username here--</h1>
+
+        <h2>Play History</h2>
+
+        <ul>
+            <li>6x6; 23 boards; Oct 13 2023</li>
+            <li>6x6; 13 boards; Oct 10 2023</li>
+            <li>10x10; 5 boards; Oct 5 2023</li>
+            <li>10x10; 3 boards; Oct 5 2023</li>
+            <li>6x6; 10 boards; Oct 1 2023</li>
+            <li>6x6; 11 boards; Nov 27 2023</li>
+        </ul>
+
+        <h2>Current Leaderboard standings</h2>
+        <p>6x6: none</p>
+        <p>10x10: 3rd</p>
+    </main>
+    <footer>
+        <div id="footlink"><a href="https://github.com/nobray2">Author's Github</a></div>
+        <div id="footlink"><button onclick="window.location.href='index.html'">Logout</button></div>
+    </footer>
+</body>
+
 </html>

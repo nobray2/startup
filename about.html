@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Matchmaster - About</title>
 
-        <!-- css sheet(s)-->
-        <link rel="stylesheet" href="main.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matchmaster - About</title>
 
-        <!-- bootstrap include-->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-        crossorigin="anonymous"
-        />
-    </head>
-    <body>
-        <header>
-            <h1>Matchmaster - About</h1>
-            <nav>
-                <ul class="mainnav">
-                    <li><a href="6x6.html">Play 6x6</a></li>
-                    <li><a href="10x10.html">Play 10x10</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="scores.html">Leaderboards</a></li>
-                    <li><a href="profile.html">My Profile</a></li>
+    <!-- bootstrap include-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- css sheet(s)-->
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Matchmaster - About</h1>
+
+        <nav class="navbar navbar-expand navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="6x6.html">Play<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="scores.html">Scores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <main>
+            </div>
+        </nav>
+    </header>
+    <main>
 
-            <p>Matchmaster is an exciting new take on matching games. You will be competing with other users to try and place on the leaderboards. Match up all the images to finish the most boards and claim your spot.</p>
+        <p>Matchmaster is an exciting new take on matching games. You will be competing with other users to try and
+            place on the leaderboards. Match up all the images to finish the most boards and claim your spot.</p>
 
-            <h2>How to Play</h2>
-            <ul>
-                <li>Select a game mode, either 6x6 or 10x10</li>
-                <li>The completed board will be shown for 5 seconds. Try to remember which squares have which images.</li>
-                <li>Click two squares to reveal them. If they match, they will stay revealed. If they don't match, they will flip over again after a second and you will gain an error. Hitting 10 errors will end the game.</li>
-                <li>Match every square to complete the board and get a new one. You have ten minutes to complete as many as you can. Only completed boards count towards your score.</li>
-            </ul>
-        </main>
-        <footer>
-            <div id="footlink"><a href="https://github.com/nobray2">Author's Github</a></div>
-            <div id="footlink"><button onclick="window.location.href='index.html'">Logout</button></div>
-        </footer>
-    </body>
+        <h2>How to Play</h2>
+        <ul>
+            <li>Select a game mode, either 6x6 or 10x10</li>
+            <li>The completed board will be shown for 5 seconds. Try to remember which squares have which images.</li>
+            <li>Click two squares to reveal them. If they match, they will stay revealed. If they don't match, they will
+                flip over again after a second and you will gain an error. Hitting 10 errors will end the game.</li>
+            <li>Match every square to complete the board and get a new one. You have ten minutes to complete as many as
+                you can. Only completed boards count towards your score.</li>
+        </ul>
+    </main>
+    <footer>
+        <div id="footlink"><a href="https://github.com/nobray2">Author's Github</a></div>
+        <div id="footlink"><button onclick="window.location.href='index.html'">Logout</button></div>
+    </footer>
+</body>
+
 </html>
